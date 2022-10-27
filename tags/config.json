@@ -5,10 +5,10 @@
 		"img2img": true,
 		"negativePrompts": true
 	},
-	"maxResults": 5,
-	"resultStepLength": 500,
+	"maxResults": 12,
+	"resultStepLength": 200,
 	"delayTime": 100,
-	"showAllResults": false,
+	"showAllResults": true,
 	"useLeftRightArrowKeys": false,
 	"replaceUnderscores": true,
 	"escapeParentheses": true,
@@ -19,7 +19,7 @@
 		"onlyShowTranslation": false
 	},
 	"extra": {
-		"extraFile": "",
+		"extraFile": "Tags-zh-full-pack.csv",
 		"onlyTranslationExtraFile": false
 	},
 	"colors": {
