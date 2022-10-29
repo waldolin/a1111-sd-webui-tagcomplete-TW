@@ -1,7 +1,7 @@
 # Booru tag autocompletion for A1111 简中
 
 原项目：
-## [a1111-sd-webui-tagcomplete]([./README_ZH.md](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete))
+## [a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 
 
 ## 简中整合包
