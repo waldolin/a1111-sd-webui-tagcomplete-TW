@@ -5,25 +5,33 @@
 		"img2img": true,
 		"negativePrompts": true
 	},
+	"hideUIOptions": true,
 	"maxResults": 12,
-	"resultStepLength": 200,
-	"delayTime": 100,
+	"resultStepLength": 500,
+	"delayTime": 0,
 	"showAllResults": true,
 	"useLeftRightArrowKeys": false,
 	"replaceUnderscores": true,
 	"escapeParentheses": true,
+	"appendComma": false,
 	"useWildcards": true,
 	"useEmbeddings": true,
+	"alias": {
+		"searchByAlias": true,
+		"onlyShowAlias": false
+	},
 	"translation": {
-		"searchByTranslation": true,
-		"onlyShowTranslation": false
+		"translationFile": "Tags-zh-full-pack.csv",
+		"oldFormat": false,
+		"searchByTranslation": true
 	},
 	"extra": {
-		"extraFile": "Tags-zh-full-pack.csv",
-		"onlyTranslationExtraFile": false
+		"extraFile": "",
+		"onlyAliasExtraFile": false
 	},
 	"colors": {
 		"danbooru": {
+			"-1": ["red", "maroon"],
 			"0": ["lightblue", "dodgerblue"],
 			"1": ["indianred", "firebrick"],
 			"3": ["violet", "darkorchid"],
