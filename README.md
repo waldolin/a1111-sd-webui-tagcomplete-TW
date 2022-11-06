@@ -17,17 +17,15 @@
 
 文件|说明
 ---|---
-Tags-zh-full-pack.csv  | 新版格式翻译，适用于[tagcomplete 1.11](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.11.0)及之后的版本
-config.json  | 新版格式配置文件, 默认值与官方配置不同
-Tags-zh-full-pack-legacy.csv  | 旧版格式翻译，适用于[tagcomplete 1.10](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.10.1)及之前的版本
-config-legacy.json| 旧版格式配置文件, 默认值与官方配置不同
+Tags-zh-full-pack.csv  | 翻译文件，适用于[tagcomplete 1.11](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.11.0)及之后的版本
+config.json  | 可选配置文件，默认值与官方配置不同
 
 
 ## 安装
 
 1. 安装[tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#installation)
-2. 将`Tags-zh-full-pack.csv`（或旧版`-legacy`）放到`<tag-autocomplete安装目录>\tags\`中
+2. 将`Tags-zh-full-pack.csv`放到`<tag-autocomplete安装目录>\tags\`中
 3. 可选方案：
-    1. 将`config.json`（或旧版`config-legacy.json`重命名为`config.json`后）放到`<tag-autocomplete安装目录>\tags\`中覆盖对应文件
-    2. 打开`<tag-autocomplete安装目录>\tags\config.json`，修改`"translationFile": "",`为`"translationFile": "Tags-zh-full-pack.csv"` （旧版：修改`"extraFile": "",`为`"extraFile": "Tags-zh-full-pack-legacy.csv",`
+    1. 将`config.json`放到`<tag-autocomplete安装目录>\tags\`中覆盖对应文件
+    2. 打开`<tag-autocomplete安装目录>\tags\config.json`，修改`"translationFile": "",`为`"translationFile": "Tags-zh-full-pack.csv"`
 4. 根据[官方配置说明](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#config)按照自己的喜好修改配置
