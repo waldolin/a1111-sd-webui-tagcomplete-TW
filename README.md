@@ -30,3 +30,4 @@ config-legacy.json| 旧版格式配置文件, 默认值与官方配置不同
 3. 可选方案：
     1. 将`config.json`（或旧版`config-legacy.json`重命名为`config.json`后）放到`<tag-autocomplete安装目录>\tags\`中覆盖对应文件
     2. 打开`<tag-autocomplete安装目录>\tags\config.json`，修改`"translationFile": "",`为`"translationFile": "Tags-zh-full-pack.csv"` （旧版：修改`"extraFile": "",`为`"extraFile": "Tags-zh-full-pack-legacy.csv",`
+4. 根据[官方配置说明](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#config)按照自己的喜好修改配置
