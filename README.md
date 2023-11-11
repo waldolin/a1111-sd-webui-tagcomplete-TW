@@ -34,9 +34,9 @@ config.json  | 可選配置檔，預設值與官方配置不同
 5. 根據[官方配置說明](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#config)按照自己的喜好修改配置
 
 #
-喜歡可以訂閱跟分享旺哥的YouTube頻道，謝謝！ 
-歡迎訂閱+小鈴鐺，關注我的頻道ww00yy 
-【YOUTUBE 頻道】:零之自由創作空間的頻道  
+喜歡可以訂閱跟分享旺哥的YouTube頻道，謝謝！  
+歡迎訂閱+小鈴鐺，關注我的頻道ww00yy  
+【YOUTUBE 頻道】:零之自由創作空間的頻道(https://www.youtube.com/channel/UCKcW62Ys6zRFp3syvkDYOlQ)  
 【旺哥的Twitch】https://www.twitch.tv/a0980368677   
 【旺哥的paypal】https://streamlabs.com/a0980368677/tip   
 贊助連結：paypal: https://www.paypal.me/waldo870  
