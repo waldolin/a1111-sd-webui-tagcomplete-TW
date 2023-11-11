@@ -1,31 +1,36 @@
-# Booru tag autocompletion for A1111 简中
-
-原项目：
+# Booru tag autocompletion for A1111 繁體中文
+原項目：
 ## [a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 
 
-## 简中整合包
+## 繁體中文整合包
 
-整合了来自[阿巧的人工通用及人名tag翻译](https://ngabbs.com/read.php?tid=33869519)，以及[原tagcomplete简中版](https://github.com/sgmklp/tag-for-autocompletion-with-translation)的翻译，来自[标签超市](https://github.com/wfjsw/danbooru-diffusion-prompt-builder)的翻译，来自[手抄本法术书的翻译](https://docs.google.com/spreadsheets/d/14Gg1kIGWdZGXyCC8AgYVT0lqI6IivLzZOdIT3QMWwVI/)，以及[窝自己](https://github.com/byzod/a1111-sd-webui-tagcomplete-CN)的300来个翻译
+整合了來自[阿巧的人工通用及人名tag翻譯](https://ngabbs.com/read.php?tid=33869519)，以及[原tagcomplete簡中版](https://github.com/sgmklp/tag-for-autocompletion-with-translation)的翻譯，來自[標籤超市](https://github.com/wfjsw/danbooru-diffusion-prompt-builder)的翻譯，來自[手抄本法術書的翻譯](https://docs.google.com/spreadsheets/d/14Gg1kIGWdZGXyCC8AgYVT0lqI6IivLzZOdIT3QMWwVI/)，以及[byzod](https://github.com/byzod/a1111-sd-webui-tagcomplete-CN)的300來個翻譯，加上[waldolin](https://github.com/byzod/a1111-sd-webui-tagcomplete-CN)轉成繁體中文
 
-其中来自`中文化danbooru-tag 人名.xlsx`的tag完全没有翻译，只是摘取了有中文和日文的部分塞进去（理直气壮
+其中來自`中文化danbooru-tag 人名.xlsx`的tag完全沒有翻譯，只是摘取了有中文和日文的部分塞進去（by_byzod)
 
-因为 ~完全妹有翻译~ 只做了微不足道的翻译，和一些复制粘贴的工作，欢迎dalao fork完善
+因為 ~完全妹有翻譯~ 只做了微不足道的翻譯，和一些複製粘貼的工作，歡迎大佬完善
 
 
-## 文件说明
+## 文件說明
 
-文件|说明
+文件|說明
 ---|---
-Tags-zh-full-pack.csv  | 翻译文件，适用于[tagcomplete 1.11](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.11.0)及之后的版本
-config.json  | 可选配置文件，默认值与官方配置不同
+Tags-zh-full-pack.csv  | 簡體翻譯檔，適用於[tagcomplete 1.11](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.11.0)及之後的版本
+Tags-tw-full-pack.csv  | 繁體翻譯檔，適用於[tagcomplete 1.11](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete/releases/tag/1.11.0)及之後的版本
+config.json  | 可選配置檔，預設值與官方配置不同
 
 
-## 安装
+## 安裝
 
-1. 安装[tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#installation)
-2. 将`Tags-zh-full-pack.csv`放到`<tag-autocomplete安装目录>\tags\`中
-3. 可选方案：
-    1. 将`config.json`放到`<tag-autocomplete安装目录>\tags\`中覆盖对应文件
-    2. 打开`<tag-autocomplete安装目录>\tags\config.json`，修改`"translationFile": "",`为`"translationFile": "Tags-zh-full-pack.csv"`
-4. 根据[官方配置说明](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#config)按照自己的喜好修改配置
+1. 安裝[tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#installation)
+2. 將`Tags-tw-full-pack.csv`放到`<tag-autocomplete安裝目錄>\tags\`中
+3."您可以在下面找到它Settings > Tag autocomplete > Translation filename > Translation file uses old 3-column translation format instead of the new 2-column one。打開它後，第二列將在解析過程中不被使用並被跳過。選Tags-tw-full-pack.csv"
+*ps你也可以在翻譯部分新增一個附加文件，該文件將用於翻譯標籤和別名，並且還可以透過翻譯進行搜尋。該檔案必須是格式為 的 CSV <English tag/alias>,<Translation>。一些較舊的文件使用三列格式，這需要啟動相容性設定。
+4. 可選方案：
+    1. 將`config.json`放到`<tag-autocomplete安裝目錄>\tags\`中覆蓋對應檔
+    2. 打開`<tag-autocomplete安裝目錄>\tags\config.json`，修改`"translationFile": "",`為`"translationFile": "Tags-tw-full-pack.csv"`
+5. 根據[官方配置說明](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete#config)按照自己的喜好修改配置
+
+
+
